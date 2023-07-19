@@ -1,3 +1,4 @@
+print("Started adding the users.");
 db.createUser(
   {
     user: "lukemwila",
@@ -10,3 +11,5 @@ db.createUser(
     ]
   }
 )
+
+print("End adding the user roles.");
